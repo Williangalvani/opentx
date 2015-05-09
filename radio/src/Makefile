@@ -39,10 +39,10 @@ DOUBLE_WRITE_OK = NO
 
 # Command to read/write FLASH/EEPROM images. Currently
 # Must have avrdude interface
-AVRDUDE = /usr/local/bin/avrdude
+AVRDUDE = avrdude
 
 # Device options for AVRDUDE Command. 
-AVRDEVICE = -c usbasp -p m64
+AVRDEVICE = -c usbasp -p m128
 
 # Delay to start second AVRDUDE command (required by some).
 DELAY = 5
@@ -52,7 +52,7 @@ DELAY = 5
 # PCB version
 # Values: 9X, 9X128, 9X2561, 9XR, 9XR128, 9XR2561, GRUVIN9X, MEGA2560, SKY9X, 9XRPRO, TARANIS 
 # Old values STD and STD128 are mapped to 9X and 9X128 for compatibility
-PCB = 9X
+PCB = 9X128
 
 # PCB revision
 PCBREV =
@@ -61,7 +61,7 @@ PCBREV =
 # For this option you need to modify your hardware!
 # More information at [insertURLhere]
 # Values = STD, FRSKY, FRSKY_SPORT, JETI, NMEA, ARDUPILOT, MAVLINK, TELEMETREZ
-EXT = STD
+EXT = FRSKY
 
 # FAI mode
 # Values = YES, NO, CHOICE

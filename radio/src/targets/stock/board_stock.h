@@ -37,6 +37,8 @@
 #ifndef board_stock_h
 #define board_stock_h
 
+#define SSD1306
+
 #include "../common_avr/board_avr.h"
 
 #define GPIO_BUTTON_MENU       pinb
